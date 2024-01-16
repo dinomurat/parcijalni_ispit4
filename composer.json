@@ -1,5 +1,5 @@
 {
-    "name": "Parcijalni ispit 4",
+    "name": "algebra/bedev0423",
     "description": "Parcijalni ispit za Algebru",
     "type": "project",
     "autoload": {
@@ -12,5 +12,7 @@
             "name": "Dino Murat"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/dotenv": "^6.4"
+    }
 }
