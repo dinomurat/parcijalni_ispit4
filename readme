@@ -1,0 +1,10 @@
+Connector to mysql database.
+
+Uses symfony/dotenv package to store configuration for database:
+https://packagist.org/packages/symfony/dotenv
+
+Program creates class that encapsulates connection to database implementing singleton pattern.
+
+App uses composer autoload feature.
+
+.env.example file shows how the database configuration needs to be stored in .env file
